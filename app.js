@@ -2,7 +2,7 @@ const express =  require('express')
 const app  = express()
 const dotenv = require("dotenv")
 dotenv.config();
-
+// helo world test comment 
 console.log(process.env.name)
 
 //Db connection building with sql / sequilize
